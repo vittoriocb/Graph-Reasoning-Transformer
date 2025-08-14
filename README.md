@@ -1,3 +1,7 @@
+## Note from the Author
+
+The materials in this repository are still a work in progress and are being actively refined. Should you find any mistakes or simply wish to connect and discuss the work, please don't hesitate to reach out via my social media channels or open an issue on the repository.
+
 # The Graph Reasoning Transformer (GRT)
 
 This repository contains the original article for the **Graph Reasoning Transformer (GRT)**, a novel architecture proposed by Vittorio Calcagno.
@@ -19,4 +23,8 @@ The GRT is a small, efficient, decoder-only transformer designed to achieve this
 * **The "Honest Student" Bootstrap:** We leverage a large LLM (e.g., GPT-4, Claude 4, Gemini 2.5) for a one-time knowledge extraction task, then use that corpus to train a **small, computationally simple model that is forced to learn true logic** rather than relying on memorization.
 * **A Path to AGI:** The small model's blazing-fast inference speed is the critical accelerator for a **recursive self-improvement loop**. By reasoning about its own architecture, the system can improve itself exponentially, creating a direct path to AGI.
 
-The full article can be read in `The_Graph_Reasoning_Transformer.pdf`.
+Article about GRT can be read at **the_graph_reasoning_transformer.md**
+
+GRT whitepaper (work in progress) can be read at **Knowledge_is_the_Product_of_Reasoning_REV4.pdf**
+
+A FAQ addressing various questions you may have after reading article and/or whitepaper can be read at **faq.md**
